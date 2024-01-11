@@ -1,0 +1,72 @@
+/* Body Style */
+body {
+  margin: 0 auto;
+  width: 80%;
+  font-family: "Inter", sans-serif;
+  background-color: #fafaf9;
+}
+
+.review-page-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* gap: 500px; */
+  margin-top: 200px;
+}
+
+.fa-regular {
+  background-color: #f5c044;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.reviewer-text-box > ul {
+  list-style-image: url("../images/Done_ring_round_fill.svg");
+}
+
+.google-box {
+  margin-left: 350px;
+}
+
+.google-sub-box {
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.meta-box {
+  margin-right: 350px;
+}
+
+.meta-sub-box {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.google-icon {
+  width: 25%;
+  height: 25%;
+}
+
+.meta-icon {
+  width: 25%;
+  height: 25%;
+}
+
+/* Media Rule for Mobile - 640px */
+@media only screen and (max-width: 640px) {
+  .review-page-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .google-box {
+    margin-left: 80px;
+  }
+
+  .meta-box {
+    .meta-box {
+      margin-right: 80px;
+    }
+  }
+}
