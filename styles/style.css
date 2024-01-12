@@ -9,7 +9,6 @@ body {
 .review-page-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* gap: 500px; */
   margin-top: 200px;
 }
 
@@ -19,29 +18,47 @@ body {
   padding: 10px;
 }
 
-.reviewer-text-box > ul {
+.reviewer-title {
+  font-size: 2.25rem;
+  color: #18181b;
+}
+
+.reviewer-description {
+  font-size: 1.25rem;
+  color: #18181b;
+  padding-right: 200px;
+}
+
+.reviewer-text-box {
+  margin-left: 30px;
+}
+
+.reviewer-text-box > li {
   list-style-image: url("../images/Done_ring_round_fill.svg");
+  font-size: 0.875rem;
+  color: #18181b;
 }
 
 .google-box {
-  margin-left: 350px;
+  margin-right: 250px;
+  margin-left: 160px;
 }
 
 .google-sub-box {
-  padding: 15px;
+  padding: 30px;
   background-color: #ffffff;
   border-radius: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 .meta-box {
-  margin-right: 350px;
+  margin-right: 430px;
 }
 
 .meta-sub-box {
   background-color: #ffffff;
   border-radius: 15px;
-  padding: 15px;
+  padding: 40px;
 }
 
 .google-icon {
@@ -52,6 +69,16 @@ body {
 .meta-icon {
   width: 25%;
   height: 25%;
+}
+
+.reviewer-name {
+  font-size: 1rem;
+  color: #18181b;
+}
+
+.review {
+  font-size: 1rem;
+  color: #18181b;
 }
 
 /* Media Rule for Mobile - 640px */
